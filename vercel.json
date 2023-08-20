@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "makenewsdjango/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "makenewsdjango/wsgi.py"
+    }
+  ]
+}
