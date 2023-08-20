@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-iag6a7@gx5w@^8spf2(4rita0r^y3$vwc+00so4=(*h13i6yfv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
 ALLOWED_HOSTS = ["127.0.0.1", ".vercel.app"]
 
 # Application definition
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "makenewsdjango.wsgi.application"
+WSGI_APPLICATION = "makenewsdjango.wsgi.app"
 
 
 # Database
